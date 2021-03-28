@@ -1,0 +1,213 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/type.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:100vh;
+    font-family: 'Special Elite', cursive;
+}
+
+
+
+button{
+    border:none;
+    outline:none;
+    font-size:1.3rem;
+    padding:0.5rem 1rem;
+    cursor:pointer;
+    border-radius:0.8rem;
+    margin-top:2rem;
+    margin-left: 2rem;
+    background-color:#033a64;
+    color:white;
+    width:6rem;
+}   
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-twitter{
+    color: white;
+    margin-left: 0.5rem;
+}
+.twitter{
+    background-color:#016dbf;
+}
+
+.text-field{
+    transform: translate(350px, -180px) rotate(-2deg);
+    width: 360px;
+    margin: 13rem 10rem 10rem 23rem;
+  }
+
+  @media only screen and (min-width: 375px){
+    .text-field{
+        transform: translate(-240px,-40px) rotate(-1deg);
+        width:130px;
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+      }
+      button{
+        font-size:0.9rem;
+        padding:0.4rem 0.8rem;
+      }
+  } 
+
+@media only screen and (min-width: 414px){
+    .text-field{
+        transform: translate(-225px,-45px) rotate(-1deg);
+        width:140px;
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+      }
+      button{
+        font-size:0.9rem;
+        padding:0.4rem 0.8rem;
+      }
+  } 
+
+
+@media only screen and (min-width: 460px){
+  .text-field{
+      transform: translate(-205px,-40px) rotate(-1deg);
+      width:150px;
+      font-size: 0.6rem;
+      line-height: 0.8rem;
+    }
+    button{
+      font-size:0.9rem;
+      padding:0.4rem 0.8rem;
+    }
+} 
+
+@media only screen and (min-width: 510px){
+  .text-field{
+      transform: translate(-175px,-40px) rotate(-1deg);
+      width:150px;
+      font-size: 0.6rem;
+      line-height: 0.8rem;
+    }
+    button{
+      font-size:0.9rem;
+      padding:0.4rem 0.8rem;
+    }
+} 
+
+@media only screen and (min-width: 580px){
+  .text-field{
+      transform: translate(-135px,-50px) rotate(-1deg);
+      width:150px;
+      font-size: 0.6rem;
+      line-height: 0.8rem;
+    }
+    button{
+      font-size:0.9rem;
+      padding:0.4rem 0.8rem;
+    }
+} 
+
+@media only screen and (min-width: 700px){
+  .text-field{
+      transform: translate(-80px,-85px) rotate(-1deg);
+      width:170px;
+      font-size: 0.6rem;
+      line-height: 0.8rem;
+    }
+    button{
+      font-size:0.9rem;
+      padding:0.4rem 0.8rem;
+    }
+} 
+
+@media only screen and (min-width: 760px){
+  .text-field{
+      transform: translate(-90px,-180px) rotate(-1deg);
+      width:220px;
+      font-size: 0.8rem;
+      line-height: 0.9rem;
+    }
+    button{
+      font-size:1.1rem;
+      padding:0.4rem 0.8rem;
+      width:8rem;
+    }
+    .btn{ 
+      flex-direction: column;
+      align-items:flex-end;
+      margin-right: 10px;
+
+    }
+} 
+
+
+@media only screen and (min-width: 850px){
+  .text-field{
+      transform: translate(-25px,-210px) rotate(-1deg);
+      width:240px;
+      font-size: 0.9rem;
+      line-height: 1.1rem;
+    }
+    button{
+      font-size:1.1rem;
+      padding:0.4rem 0.8rem;
+      width:8rem;
+    }
+    .btn{ 
+      flex-direction: column;
+      align-items:flex-end;
+      margin-right: 10px;
+
+    }
+} 
+
+@media only screen and (min-width: 980px){
+  .text-field{
+      transform: translate(-15px,-160px) rotate(-1deg);
+      width:300px;
+      font-size: 0.9rem;
+      line-height: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+  .text-field{
+      transform: translate(60px,-250px) rotate(-1deg);
+      width:300px;
+      font-size: 0.9rem;
+      line-height: 1.1rem;
+    }
+}
+
+
+@media only screen and (min-width: 1150px){
+  .text-field{
+      transform: translate(60px,-390px) rotate(-1deg);
+      width:340px;
+      font-size: 1rem;
+      line-height: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 1310px){
+  .text-field{
+      transform: translate(140px,-290px) rotate(-1deg);
+      width:380px;
+      font-size: 1rem;
+      line-height: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1550px){
+  .text-field{
+      transform: translate(250px,-300px) rotate(-1deg);
+      width:400px;
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+    }
+}
+
