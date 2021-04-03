@@ -2,15 +2,34 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image: url('./img/type.jpg');
-    background-size: cover;
+    /* background-image: url('./img/type.jpg');
+    background-size: cover; */
     background-position: center center;
     background-repeat: no-repeat;
     height:100vh;
     font-family: 'Special Elite', cursive;
 }
+.pic{
+  position:absolute;
+  top:25%;
+  left:25%;
+  background-image: url('./img/type.jpg');
+  background-position: center;
+  background-size: cover;
+  width:50vw;
+  height:50vh;
+  
+}
 
-
+.text-field{
+  /* transform: translate(350px, -180px) rotate(-2deg); */
+  width: 20vw;
+  /* margin: 13rem 10rem 10rem 23rem; */
+  z-index: 1;
+  position: absolute;
+  top:25%;
+  left: 40%;
+}
 
 button{
     border:none;
@@ -39,13 +58,11 @@ button{
     background-color:#016dbf;
 }
 
-.text-field{
-    transform: translate(350px, -180px) rotate(-2deg);
-    width: 360px;
-    margin: 13rem 10rem 10rem 23rem;
-  }
 
-  @media only screen and (min-width: 375px){
+
+
+
+  /* @media only screen and (min-width: 375px){
     .text-field{
         transform: translate(-240px,-40px) rotate(-1deg);
         width:130px;
@@ -209,5 +226,5 @@ button{
       font-size: 1.3rem;
       line-height: 1.4rem;
     }
-}
+} */
 
