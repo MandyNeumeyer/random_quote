@@ -23,4 +23,4 @@ Get a random quote and tweet it on twitter.
 
 [Live Demo](https://mandyneumeyer.github.io/random_quote/)
 
-<img src="img/quote.jpeg">
+<img src="img/type.jpeg">

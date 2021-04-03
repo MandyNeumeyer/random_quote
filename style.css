@@ -2,33 +2,33 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-image: url('./img/type.jpg');
-    background-size: cover; */
     background-position: center center;
     background-repeat: no-repeat;
     height:100vh;
+    font-size:1.4rem;
     font-family: 'Special Elite', cursive;
 }
 .pic{
   position:absolute;
-  top:25%;
-  left:25%;
+  top:10%;
+  left:10%;
   background-image: url('./img/type.jpg');
   background-position: center;
   background-size: cover;
-  width:50vw;
-  height:50vh;
+  width:80vw;
+  height:80vh;
+  text-align: center;
   
 }
 
 .text-field{
-  /* transform: translate(350px, -180px) rotate(-2deg); */
-  width: 20vw;
-  /* margin: 13rem 10rem 10rem 23rem; */
+  width: 24vw;
   z-index: 1;
   position: absolute;
-  top:25%;
-  left: 40%;
+  top:10%;
+  left: 38%;
+  transform: rotate(-1deg);
+  line-height: 1.5rem;
 }
 
 button{
@@ -39,192 +39,84 @@ button{
     cursor:pointer;
     border-radius:0.8rem;
     margin-top:2rem;
-    margin-left: 2rem;
-    background-color:#033a64;
+    margin-right:1.5rem; 
     color:white;
     width:6rem;
+    background: linear-gradient(
+        to right bottom,
+        #b2e0fa,
+        #3593d6,
+        #0067bd,
+        #003a9d,
+        #050075
+    );
 }   
 
 .btn{
   display: flex;
-  justify-content: center;
-}
-
-.fa-twitter{
-    color: white;
-    margin-left: 0.5rem;
-}
-.twitter{
-    background-color:#016dbf;
+  align-items: flex-end;
+  flex-direction:column ;
 }
 
 
-
-
-
-  /* @media only screen and (min-width: 375px){
-    .text-field{
-        transform: translate(-240px,-40px) rotate(-1deg);
-        width:130px;
-        font-size: 0.6rem;
-        line-height: 0.8rem;
-      }
-      button{
-        font-size:0.9rem;
-        padding:0.4rem 0.8rem;
-      }
-  } 
-
-@media only screen and (min-width: 414px){
-    .text-field{
-        transform: translate(-225px,-45px) rotate(-1deg);
-        width:140px;
-        font-size: 0.6rem;
-        line-height: 0.8rem;
-      }
-      button{
-        font-size:0.9rem;
-        padding:0.4rem 0.8rem;
-      }
-  } 
-
-
-@media only screen and (min-width: 460px){
+ @media only screen and (max-width:1200px){
+  .pic{
+    top:20%;
+  }
+  .btn{
+    flex-direction: row;
+    justify-content: flex-end;
+  }
   .text-field{
-      transform: translate(-205px,-40px) rotate(-1deg);
-      width:150px;
-      font-size: 0.6rem;
-      line-height: 0.8rem;
-    }
-    button{
-      font-size:0.9rem;
-      padding:0.4rem 0.8rem;
-    }
-} 
+    font-size:0.9rem;
+    top:25%;
+    line-height: 1.3rem;
+  }
+}  
 
-@media only screen and (min-width: 510px){
+@media only screen and (max-width:965px){
+
   .text-field{
-      transform: translate(-175px,-40px) rotate(-1deg);
-      width:150px;
-      font-size: 0.6rem;
-      line-height: 0.8rem;
-    }
-    button{
-      font-size:0.9rem;
-      padding:0.4rem 0.8rem;
-    }
-} 
+    font-size:0.8rem;
+    top:30%;
+    line-height: 1.1rem;
+  }
+}  
 
-@media only screen and (min-width: 580px){
+
+@media only screen and (max-width:820px){
+
   .text-field{
-      transform: translate(-135px,-50px) rotate(-1deg);
-      width:150px;
-      font-size: 0.6rem;
-      line-height: 0.8rem;
-    }
-    button{
-      font-size:0.9rem;
-      padding:0.4rem 0.8rem;
-    }
-} 
+    font-size:0.7rem;
+    top:36%;
+    line-height: 0.8rem;
+  }
+}  
 
-@media only screen and (min-width: 700px){
+@media only screen and (max-width:650px){
+
   .text-field{
-      transform: translate(-80px,-85px) rotate(-1deg);
-      width:170px;
-      font-size: 0.6rem;
-      line-height: 0.8rem;
-    }
-    button{
-      font-size:0.9rem;
-      padding:0.4rem 0.8rem;
-    }
-} 
+    font-size:0.6rem;
+    top:40%;
+    line-height: 0.6rem;
+  }
+}   
+@media only screen and (max-width:550px){
 
-@media only screen and (min-width: 760px){
   .text-field{
-      transform: translate(-90px,-180px) rotate(-1deg);
-      width:220px;
-      font-size: 0.8rem;
-      line-height: 0.9rem;
-    }
-    button{
-      font-size:1.1rem;
-      padding:0.4rem 0.8rem;
-      width:8rem;
-    }
-    .btn{ 
-      flex-direction: column;
-      align-items:flex-end;
-      margin-right: 10px;
+    font-size:0.5rem;
+    top:43%;
+  }
+}   
 
-    }
-} 
-
-
-@media only screen and (min-width: 850px){
+@media only screen and (max-width:425px){
   .text-field{
-      transform: translate(-25px,-210px) rotate(-1deg);
-      width:240px;
-      font-size: 0.9rem;
-      line-height: 1.1rem;
-    }
-    button{
-      font-size:1.1rem;
-      padding:0.4rem 0.8rem;
-      width:8rem;
-    }
-    .btn{ 
-      flex-direction: column;
-      align-items:flex-end;
-      margin-right: 10px;
-
-    }
-} 
-
-@media only screen and (min-width: 980px){
-  .text-field{
-      transform: translate(-15px,-160px) rotate(-1deg);
-      width:300px;
-      font-size: 0.9rem;
-      line-height: 1.1rem;
-    }
-}
-
-@media only screen and (min-width: 1080px){
-  .text-field{
-      transform: translate(60px,-250px) rotate(-1deg);
-      width:300px;
-      font-size: 0.9rem;
-      line-height: 1.1rem;
-    }
+    width: 30vw;
+    font-size:0.4rem;
+    top:42%;
+    left:34%;
+  }
 }
 
 
-@media only screen and (min-width: 1150px){
-  .text-field{
-      transform: translate(60px,-390px) rotate(-1deg);
-      width:340px;
-      font-size: 1rem;
-      line-height: 1.1rem;
-    }
-}
-
-@media only screen and (min-width: 1310px){
-  .text-field{
-      transform: translate(140px,-290px) rotate(-1deg);
-      width:380px;
-      font-size: 1rem;
-      line-height: 1.3rem;
-    }
-}
-
-@media only screen and (min-width: 1550px){
-  .text-field{
-      transform: translate(250px,-300px) rotate(-1deg);
-      width:400px;
-      font-size: 1.3rem;
-      line-height: 1.4rem;
-    }
-} */
 
