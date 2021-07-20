@@ -11,7 +11,7 @@ Get a random quote and tweet it on twitter.
 <img alt="CSS3" width="35px" src="https://imgur.com/BkPuJlj.png" />
 &nbsp;
 <img alt="JavaScript" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-&nbsp;
+</br>
 <img alt="API" width="55px" src="https://imgur.com/RLLIr4m.png" />
 </p>
 
