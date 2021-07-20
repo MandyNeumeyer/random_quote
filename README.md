@@ -12,7 +12,7 @@ Get a random quote and tweet it on twitter.
 &nbsp;
 <img alt="JavaScript" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 &nbsp;
-<img alt="API" width="35px" src="https://imgur.com/RLLIr4m.png" />
+<img alt="API" width="45px" src="https://imgur.com/RLLIr4m.png" />
 </p>
 
 [Live Demo](https://mandyneumeyer.github.io/random_quote/)
